@@ -1,0 +1,158 @@
+[2021-04-16T02:46:47,309][INFO ][o.e.n.Node               ] [node-1] version[7.12.0], pid[4324], build[default/zip/78722783c38caa25a70982b5b042074cde5d3b3a/2021-03-18T06:17:15.410153305Z], OS[Windows 10/10.0/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/15.0.1/15.0.1+9]
+[2021-04-16T02:46:47,314][INFO ][o.e.n.Node               ] [node-1] JVM home [I:\Elastic search Node2\elasticsearch-7.12.0\jdk], using bundled JDK [true]
+[2021-04-16T02:46:47,315][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -XX:+UseG1GC, -Djava.io.tmpdir=C:\Users\Amimul\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms16346m, -Xmx16346m, -XX:MaxDirectMemorySize=8573157376, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=25, -Delasticsearch, -Des.path.home=I:\Elastic search Node2\elasticsearch-7.12.0, -Des.path.conf=I:\Elastic search Node2\elasticsearch-7.12.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2021-04-16T02:47:00,907][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2021-04-16T02:47:00,908][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [analysis-common]
+[2021-04-16T02:47:00,909][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [constant-keyword]
+[2021-04-16T02:47:00,909][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [flattened]
+[2021-04-16T02:47:00,910][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [frozen-indices]
+[2021-04-16T02:47:00,910][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2021-04-16T02:47:00,910][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-geoip]
+[2021-04-16T02:47:00,911][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-user-agent]
+[2021-04-16T02:47:00,911][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [kibana]
+[2021-04-16T02:47:00,912][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2021-04-16T02:47:00,912][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2021-04-16T02:47:00,913][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2021-04-16T02:47:00,913][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-extras]
+[2021-04-16T02:47:00,913][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [mapper-version]
+[2021-04-16T02:47:00,914][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [parent-join]
+[2021-04-16T02:47:00,914][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2021-04-16T02:47:00,914][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [rank-eval]
+[2021-04-16T02:47:00,915][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2021-04-16T02:47:00,915][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repositories-metering-api]
+[2021-04-16T02:47:00,916][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-encrypted]
+[2021-04-16T02:47:00,916][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [repository-url]
+[2021-04-16T02:47:00,917][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [search-business-rules]
+[2021-04-16T02:47:00,917][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [searchable-snapshots]
+[2021-04-16T02:47:00,917][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [snapshot-repo-test-kit]
+[2021-04-16T02:47:00,918][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [spatial]
+[2021-04-16T02:47:00,918][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transform]
+[2021-04-16T02:47:00,919][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2021-04-16T02:47:00,919][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [unsigned-long]
+[2021-04-16T02:47:00,919][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [vectors]
+[2021-04-16T02:47:00,920][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [wildcard]
+[2021-04-16T02:47:00,920][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-aggregate-metric]
+[2021-04-16T02:47:00,921][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-analytics]
+[2021-04-16T02:47:00,923][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-async]
+[2021-04-16T02:47:00,924][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-async-search]
+[2021-04-16T02:47:00,925][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-autoscaling]
+[2021-04-16T02:47:00,927][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ccr]
+[2021-04-16T02:47:00,927][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-core]
+[2021-04-16T02:47:00,929][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-data-streams]
+[2021-04-16T02:47:00,930][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-deprecation]
+[2021-04-16T02:47:00,931][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-enrich]
+[2021-04-16T02:47:00,941][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-eql]
+[2021-04-16T02:47:00,941][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-fleet]
+[2021-04-16T02:47:00,946][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-graph]
+[2021-04-16T02:47:00,947][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-identity-provider]
+[2021-04-16T02:47:00,948][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ilm]
+[2021-04-16T02:47:00,948][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ingest]
+[2021-04-16T02:47:00,950][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-logstash]
+[2021-04-16T02:47:00,951][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ml]
+[2021-04-16T02:47:00,952][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-monitoring]
+[2021-04-16T02:47:00,953][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-ql]
+[2021-04-16T02:47:00,954][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-rollup]
+[2021-04-16T02:47:00,956][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-runtime-fields]
+[2021-04-16T02:47:00,957][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-security]
+[2021-04-16T02:47:00,957][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-sql]
+[2021-04-16T02:47:00,958][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-stack]
+[2021-04-16T02:47:00,960][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-text-structure]
+[2021-04-16T02:47:00,960][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-voting-only-node]
+[2021-04-16T02:47:00,961][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [x-pack-watcher]
+[2021-04-16T02:47:00,962][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2021-04-16T02:47:01,475][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[My Coding Files (H:)]], net usable_space [141.5gb], net total_space [175.7gb], types [NTFS]
+[2021-04-16T02:47:01,476][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [15.9gb], compressed ordinary object pointers [true]
+[2021-04-16T02:47:01,657][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [ZnvKzkcDQXSdQjdqVHmgVQ], cluster name [springCluster], roles [transform, data_frozen, master, remote_cluster_client, data, ml, data_content, data_hot, data_warm, data_cold, ingest]
+[2021-04-16T02:47:09,387][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [node-1] [controller/18112] [Main.cc@117] controller (64 bit): Version 7.12.0 (Build 778cc7261dfdd1) Copyright (c) 2021 Elasticsearch BV
+[2021-04-16T02:47:10,327][INFO ][o.e.x.s.a.s.FileRolesStore] [node-1] parsed [0] roles from file [I:\Elastic search Node2\elasticsearch-7.12.0\config\roles.yml]
+[2021-04-16T02:47:13,141][INFO ][o.e.t.NettyAllocator     ] [node-1] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=8mb}]
+[2021-04-16T02:47:13,258][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
+[2021-04-16T02:47:14,194][INFO ][o.e.g.DanglingIndicesState] [node-1] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2021-04-16T02:47:14,966][INFO ][o.e.n.Node               ] [node-1] initialized
+[2021-04-16T02:47:14,967][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2021-04-16T02:47:15,005][INFO ][o.e.x.s.c.PersistentCache] [node-1] persistent cache index loaded
+[2021-04-16T02:47:15,544][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9381}, bound_addresses {127.0.0.1:9381}, {[::1]:9381}
+[2021-04-16T02:47:15,955][WARN ][o.e.b.BootstrapChecks    ] [node-1] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2021-04-16T02:47:15,970][INFO ][o.e.c.c.ClusterBootstrapService] [node-1] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2021-04-16T02:47:18,983][INFO ][o.e.c.c.Coordinator      ] [node-1] setting initial configuration to VotingConfiguration{ZnvKzkcDQXSdQjdqVHmgVQ}
+[2021-04-16T02:47:19,416][INFO ][o.e.c.s.MasterService    ] [node-1] elected-as-master ([1] nodes joined)[{node-1}{ZnvKzkcDQXSdQjdqVHmgVQ}{dNQPKWPgSd6FFerkD-QwSQ}{127.0.0.1}{127.0.0.1:9381}{cdfhilmrstw}{ml.machine_memory=34281988096, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=17146314752} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node-1}{ZnvKzkcDQXSdQjdqVHmgVQ}{dNQPKWPgSd6FFerkD-QwSQ}{127.0.0.1}{127.0.0.1:9381}{cdfhilmrstw}{ml.machine_memory=34281988096, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=17146314752}]}
+[2021-04-16T02:47:19,589][INFO ][o.e.c.c.CoordinationState] [node-1] cluster UUID set to [5PecKRxTTzq65H8e3GUQKw]
+[2021-04-16T02:47:19,750][INFO ][o.e.c.s.ClusterApplierService] [node-1] master node changed {previous [], current [{node-1}{ZnvKzkcDQXSdQjdqVHmgVQ}{dNQPKWPgSd6FFerkD-QwSQ}{127.0.0.1}{127.0.0.1:9381}{cdfhilmrstw}{ml.machine_memory=34281988096, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=17146314752}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2021-04-16T02:47:19,945][INFO ][o.e.x.c.t.IndexTemplateRegistry] [node-1] adding legacy template [.ml-anomalies-] for [ml], because it doesn't exist
+[2021-04-16T02:47:19,946][INFO ][o.e.x.c.t.IndexTemplateRegistry] [node-1] adding legacy template [.ml-state] for [ml], because it doesn't exist
+[2021-04-16T02:47:19,948][INFO ][o.e.x.c.t.IndexTemplateRegistry] [node-1] adding legacy template [.ml-notifications-000001] for [ml], because it doesn't exist
+[2021-04-16T02:47:19,954][INFO ][o.e.x.c.t.IndexTemplateRegistry] [node-1] adding legacy template [.ml-stats] for [ml], because it doesn't exist
+[2021-04-16T02:47:19,971][INFO ][o.e.h.AbstractHttpServerTransport] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2021-04-16T02:47:19,972][INFO ][o.e.n.Node               ] [node-1] started
+[2021-04-16T02:47:20,074][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2021-04-16T02:47:20,414][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.ml-state] for index patterns [.ml-state*]
+[2021-04-16T02:47:20,621][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.ml-notifications-000001] for index patterns [.ml-notifications-000001]
+[2021-04-16T02:47:20,814][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.ml-anomalies-] for index patterns [.ml-anomalies-*]
+[2021-04-16T02:47:20,971][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.ml-stats] for index patterns [.ml-stats-*]
+[2021-04-16T02:47:21,164][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [logs-settings]
+[2021-04-16T02:47:21,331][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [logs-mappings]
+[2021-04-16T02:47:21,484][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [metrics-mappings]
+[2021-04-16T02:47:21,633][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [metrics-settings]
+[2021-04-16T02:47:21,800][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [synthetics-settings]
+[2021-04-16T02:47:21,971][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding component template [synthetics-mappings]
+[2021-04-16T02:47:22,205][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.triggered_watches] for index patterns [.triggered_watches*]
+[2021-04-16T02:47:22,360][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.watches] for index patterns [.watches*]
+[2021-04-16T02:47:22,520][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.watch-history-13] for index patterns [.watcher-history-13*]
+[2021-04-16T02:47:22,714][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [ilm-history] for index patterns [ilm-history-5*]
+[2021-04-16T02:47:22,896][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [.slm-history] for index patterns [.slm-history-5*]
+[2021-04-16T02:47:23,096][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-alerts-7] for index patterns [.monitoring-alerts-7]
+[2021-04-16T02:47:23,307][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-es] for index patterns [.monitoring-es-7-*]
+[2021-04-16T02:47:23,484][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-7-*]
+[2021-04-16T02:47:23,668][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-7-*]
+[2021-04-16T02:47:23,870][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.monitoring-beats] for index patterns [.monitoring-beats-7-*]
+[2021-04-16T02:47:24,080][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [logs] for index patterns [logs-*-*]
+[2021-04-16T02:47:24,270][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [metrics] for index patterns [metrics-*-*]
+[2021-04-16T02:47:24,432][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding index template [synthetics] for index patterns [synthetics-*-*]
+[2021-04-16T02:47:24,606][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [ml-size-based-ilm-policy]
+[2021-04-16T02:47:24,839][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [logs]
+[2021-04-16T02:47:25,029][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [synthetics]
+[2021-04-16T02:47:25,213][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [metrics]
+[2021-04-16T02:47:25,417][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [watch-history-ilm-policy]
+[2021-04-16T02:47:25,596][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [ilm-history-ilm-policy]
+[2021-04-16T02:47:25,781][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [slm-history-ilm-policy]
+[2021-04-16T02:47:26,184][INFO ][o.e.l.LicenseService     ] [node-1] license [cb1ad8cf-9ff2-4371-9268-2c759b8c4d90] mode [basic] - valid
+[2021-04-16T02:47:26,186][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [node-1] Active license is now [BASIC]; Security is disabled
+[2021-04-16T02:52:08,407][INFO ][o.e.m.j.JvmGcMonitorService] [node-1] [gc][291] overhead, spent [356ms] collecting in the last [1s]
+[2021-04-16T03:17:04,119][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.kibana_task_manager_7.12.0_001] creating index, cause [api], templates [], shards [1]/[1]
+[2021-04-16T03:17:04,170][INFO ][o.e.c.r.a.AllocationService] [node-1] updating number_of_replicas to [0] for indices [.kibana_task_manager_7.12.0_001]
+[2021-04-16T03:17:04,492][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.kibana_7.12.0_001] creating index, cause [api], templates [], shards [1]/[1]
+[2021-04-16T03:17:04,494][INFO ][o.e.c.r.a.AllocationService] [node-1] updating number_of_replicas to [0] for indices [.kibana_7.12.0_001]
+[2021-04-16T03:17:05,909][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana_7.12.0_001][0]]]).
+[2021-04-16T03:17:09,749][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.management-beats] for index patterns [.management-beats]
+[2021-04-16T03:17:10,487][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.apm-custom-link] creating index, cause [api], templates [], shards [1]/[1]
+[2021-04-16T03:17:10,488][INFO ][o.e.c.r.a.AllocationService] [node-1] updating number_of_replicas to [0] for indices [.apm-custom-link]
+[2021-04-16T03:17:10,917][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.apm-agent-configuration] creating index, cause [api], templates [], shards [1]/[1]
+[2021-04-16T03:17:10,919][INFO ][o.e.c.r.a.AllocationService] [node-1] updating number_of_replicas to [0] for indices [.apm-agent-configuration]
+[2021-04-16T03:17:11,903][INFO ][o.e.c.m.MetadataMappingService] [node-1] [.kibana_task_manager_7.12.0_001/9HNXgx7cSg65KRPwr8tPIg] update_mapping [_doc]
+[2021-04-16T03:17:11,956][INFO ][o.e.c.m.MetadataMappingService] [node-1] [.kibana_7.12.0_001/ZomN4PXTS1S0uyWN8nZqmg] update_mapping [_doc]
+[2021-04-16T03:17:12,306][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.apm-agent-configuration][0]]]).
+[2021-04-16T03:17:12,525][INFO ][o.e.c.m.MetadataMappingService] [node-1] [.kibana_7.12.0_001/ZomN4PXTS1S0uyWN8nZqmg] update_mapping [_doc]
+[2021-04-16T03:17:12,840][INFO ][o.e.x.i.a.TransportPutLifecycleAction] [node-1] adding index lifecycle policy [kibana-event-log-policy]
+[2021-04-16T03:17:13,240][INFO ][o.e.c.m.MetadataIndexTemplateService] [node-1] adding template [.kibana-event-log-7.12.0-template] for index patterns [.kibana-event-log-7.12.0-*]
+[2021-04-16T03:17:13,463][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.kibana-event-log-7.12.0-000001] creating index, cause [api], templates [.kibana-event-log-7.12.0-template], shards [1]/[1]
+[2021-04-16T03:17:13,466][INFO ][o.e.c.r.a.AllocationService] [node-1] updating number_of_replicas to [0] for indices [.kibana-event-log-7.12.0-000001]
+[2021-04-16T03:17:13,717][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.kibana-event-log-7.12.0-000001] from [null] to [{"phase":"new","action":"complete","name":"complete"}] in policy [kibana-event-log-policy]
+[2021-04-16T03:17:14,416][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.kibana-event-log-7.12.0-000001] from [{"phase":"new","action":"complete","name":"complete"}] to [{"phase":"hot","action":"unfollow","name":"branch-check-unfollow-prerequisites"}] in policy [kibana-event-log-policy]
+[2021-04-16T03:17:14,609][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana-event-log-7.12.0-000001][0]]]).
+[2021-04-16T03:17:14,803][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.kibana-event-log-7.12.0-000001] from [{"phase":"hot","action":"unfollow","name":"branch-check-unfollow-prerequisites"}] to [{"phase":"hot","action":"rollover","name":"check-rollover-ready"}] in policy [kibana-event-log-policy]
+[2021-04-16T03:17:15,022][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [.ds-ilm-history-5-2021.04.15-000001] creating index, cause [initialize_data_stream], templates [ilm-history], shards [1]/[0]
+[2021-04-16T03:17:15,028][INFO ][o.e.c.m.MetadataCreateDataStreamService] [node-1] adding data stream [ilm-history-5] with write index [.ds-ilm-history-5-2021.04.15-000001] and backing indices []
+[2021-04-16T03:17:15,516][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.ds-ilm-history-5-2021.04.15-000001] from [null] to [{"phase":"new","action":"complete","name":"complete"}] in policy [ilm-history-ilm-policy]
+[2021-04-16T03:17:16,227][INFO ][o.e.c.r.a.AllocationService] [node-1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.ds-ilm-history-5-2021.04.15-000001][0]]]).
+[2021-04-16T03:17:16,780][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.ds-ilm-history-5-2021.04.15-000001] from [{"phase":"new","action":"complete","name":"complete"}] to [{"phase":"hot","action":"unfollow","name":"branch-check-unfollow-prerequisites"}] in policy [ilm-history-ilm-policy]
+[2021-04-16T03:17:17,152][INFO ][o.e.x.i.IndexLifecycleTransition] [node-1] moving index [.ds-ilm-history-5-2021.04.15-000001] from [{"phase":"hot","action":"unfollow","name":"branch-check-unfollow-prerequisites"}] to [{"phase":"hot","action":"rollover","name":"check-rollover-ready"}] in policy [ilm-history-ilm-policy]
+[2021-04-16T03:37:17,611][INFO ][o.e.c.m.MetadataCreateIndexService] [node-1] [person_data] creating index, cause [api], templates [], shards [1]/[1]
+[2021-04-16T03:37:18,505][INFO ][o.e.c.m.MetadataMappingService] [node-1] [person_data/raz_d79hROaN74kzY4NYtw] create_mapping [_doc]
+[2021-04-16T03:37:23,359][INFO ][o.e.c.m.MetadataMappingService] [node-1] [person_data/raz_d79hROaN74kzY4NYtw] update_mapping [_doc]
+[2021-04-16T03:42:31,332][INFO ][o.e.n.Node               ] [node-1] stopping ...
+[2021-04-16T03:42:31,409][INFO ][o.e.x.m.p.NativeController] [node-1] Native controller process has stopped - no new native processes can be started
+[2021-04-16T03:42:31,410][INFO ][o.e.x.w.WatcherService   ] [node-1] stopping watch service, reason [shutdown initiated]
+[2021-04-16T03:42:31,413][INFO ][o.e.x.w.WatcherLifeCycleService] [node-1] watcher has stopped and shutdown
+[2021-04-16T03:42:32,826][INFO ][o.e.n.Node               ] [node-1] stopped
+[2021-04-16T03:42:32,827][INFO ][o.e.n.Node               ] [node-1] closing ...
+[2021-04-16T03:42:32,840][INFO ][o.e.n.Node               ] [node-1] closed

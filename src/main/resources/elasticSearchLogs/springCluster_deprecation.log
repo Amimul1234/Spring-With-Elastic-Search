@@ -1,0 +1,2 @@
+[2021-04-16T03:17:13,456][DEPRECATION][o.e.d.c.m.MetadataCreateIndexService] [node-1] index name [.kibana-event-log-7.12.0-000001] starts with a dot '.', in the next major version, index names starting with a dot are reserved for hidden indices and system indices
+[2021-04-16T03:18:35,989][DEPRECATION][o.e.d.c.m.IndexNameExpressionResolver] [node-1] this request accesses system indices: [.apm-agent-configuration, .apm-custom-link, .kibana_7.12.0_001, .kibana_task_manager_7.12.0_001], but in a future major version, direct access to system indices will be prevented by default
